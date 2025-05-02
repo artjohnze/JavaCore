@@ -1,0 +1,11 @@
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Understand the Conversion Factors: Make sure to understand the relationships between minutes, hours, days, and years in terms of the constants provided (e.g., MIN_PER_HOUR, HOURS_PER_DAY, DAYS_PER_YEAR, etc.).
+
+Check for Negative Input: Begin by checking if the input minutes is negative. If it is, print "Invalid Value" and return.
+
+Calculate Years and Days: Calculate the total number of years by dividing minutes by MIN_PER_YEAR. This will give you the complete years. Then, calculate the remaining days by taking the modulus of (minutes / MIN_PER_DAY) with DAYS_PER_YEAR.
+
+Print the Result: Use System.out.println to display the result in the format "X min = Y y and Z d", where X is the input minutes, Y is the calculated years, and Z is the calculated days.

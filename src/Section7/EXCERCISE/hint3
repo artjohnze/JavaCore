@@ -1,0 +1,17 @@
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Start with input validation:
+
+Check if the kiloBytes parameter is less than 0. If it is, print "Invalid Value" to the console and use the return statement to exit the method.
+
+Calculate the megabytes and remaining kilobytes:
+
+To convert kilobytes to megabytes, divide the kiloBytes parameter by 1024. Store the result in an int variable, say mb.
+
+To find the remaining kilobytes, use the modulo operator (%). Calculate kiloBytes % 1024 and store the result in an int variable, say remainingKB.
+
+Print the result:
+
+Use System.out.println to print the conversion result to the console in the format: kiloBytes + " KB = " + mb + " MB and " + remainingKB + " KB".

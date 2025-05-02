@@ -1,0 +1,6 @@
+
+Rounding to Three Decimal Places: Remember that to compare doubles up to three decimal places, you need to round both values to three decimal places. This is achieved by multiplying the numbers by 1000 and converting them to long. This is because 1000 corresponds to three decimal places (i.e., 1.234 * 1000 = 1234).
+
+Comparison: After rounding, you can compare the two rounded values using the == operator. This checks if the rounded values are equal.
+
+Return Statement: The method should return true if the rounded values are equal, and false otherwise.

@@ -1,0 +1,6 @@
+
+Adding Values: The method's purpose is to check if the sum of a and b is equal to c. Make sure to sum up a and b using the + operator.
+
+Comparison: After adding a and b, compare the result with the value of c using the == operator.
+
+Return Statement: The method should return true if the sum of a and b is equal to c, and false otherwise.

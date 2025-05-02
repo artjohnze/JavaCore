@@ -1,0 +1,17 @@
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Input validation:
+
+Start by checking if the hourOfDay parameter is within a valid range (0 to 23). If it's not, return false to indicate an invalid hour.
+
+Determine if you should wake up:
+
+If the hourOfDay is valid, we need to decide if you should wake up. We can use the barking parameter to check if the dog is currently barking.
+
+You should wake up if the dog is barking (barking is true) and the hourOfDay is less than 8 (before 8 AM) or greater than 22 (after 10 PM).
+
+Return the result:
+
+Use the return statement to return true if you should wake up based on the conditions above. Otherwise, return false.

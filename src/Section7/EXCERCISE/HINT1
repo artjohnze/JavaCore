@@ -1,0 +1,15 @@
+1.  Remember that > 0 is exclusive of zero, and that >= 0 is inclusive of zero.
+
+
+
+2.  The if statement is designed to verify a boolean condition. If the condition evaluates to true, the code within the block is executed; otherwise, it's not executed.
+
+
+
+  if (true) {
+      // code inside this block will be executed
+  }
+
+  if (false) {
+      // code inside this block will NOT be executed
+  }

@@ -1,0 +1,11 @@
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Begin by using a ternary conditional operator (? :) to set the value of the max variable based on whether it's summer or not. If summer is true, set max to 45; otherwise, set it to 35.
+
+Next, you can use the temperature variable in conjunction with the calculated max value to determine whether the cat should play.
+
+Utilize the && logical operator to check if the temperature is within the range of 25 and the calculated max value.
+
+If the temperature falls within the specified range, return true as the cat should play; otherwise, return false.

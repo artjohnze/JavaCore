@@ -1,0 +1,23 @@
+There are several ways you can implement these methods.  This is one way to do it.
+
+
+
+area Method for Circle:
+
+The first area method calculates the area of a circle given its radius.
+
+It checks if the radius is negative. If it's negative, the method returns INVALID_VALUE.
+
+Otherwise, it calculates the area using the formula: radius * radius * Math.PI, which is the formula for the area of a circle.
+
+area Method for Rectangle:
+
+The second area method calculates the area of a rectangle given its sides x and y.
+
+It checks if either x or y is negative. If either value is negative, the method returns INVALID_VALUE.
+
+Otherwise, it calculates the area using the formula: x * y, which is the formula for the area of a rectangle.
+
+Logical Operators:
+
+In both methods, the || (logical OR) operator is used to combine the conditions for checking if the values are negative. If either radius or both x and y are negative, the condition will be true, and the method will return INVALID_VALUE.

@@ -1,0 +1,17 @@
+There are several ways you can implement these methods.  This is one way to do it.
+
+
+
+toMilesPerHour method:
+
+Check if the kilometersPerHour parameter is less than 0. If it is, return -1 as an indication of an invalid value.
+
+Otherwise, calculate the conversion from kilometers per hour to miles per hour using the formula kilometersPerHour / 1.609. You can use the Math.round method to round the result to the nearest whole number and return it.
+
+printConversion method:
+
+First, check if the kilometersPerHour parameter is less than 0. If it is, print "Invalid Value" to the console, and then use the return statement to exit the method.
+
+If the value is valid, call the toMilesPerHour method to convert kilometersPerHour to miles per hour and store the result in a variable, say milesPerHour.
+
+Finally, use System.out.println to print the conversion result to the console in the format: kilometersPerHour + " km/h = " + milesPerHour + " mi/h".

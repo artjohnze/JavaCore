@@ -1,0 +1,25 @@
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Input validation:
+
+Start by checking if the year parameter is within a valid range (1 to 9,999). If it's not, return false to indicate an invalid year.
+
+Determine if the year is a leap year:
+
+If the year parameter is valid, we need to check if it's a leap year based on the given conditions.
+
+Start by checking if the year is divisible by 4. If it is, proceed to the next step.
+
+Check if the year is divisible by 100:
+
+If the year is not divisible by 100, it's a leap year.
+
+Check for exceptions to the leap year rule:
+
+If the year is also divisible by 100, it's not a leap year, unless it's also divisible by 400.
+
+Return the result:
+
+Use the return statement to return true if the year is a leap year based on the conditions above. Otherwise, return false.

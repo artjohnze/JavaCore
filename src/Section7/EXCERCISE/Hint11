@@ -1,0 +1,13 @@
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Begin by checking if any of the input values (a, b, and c) is less than zero. If any of them are negative, print the "Invalid Value" message.
+
+After the first check, consider the scenarios where all three numbers are equal, where none are equal, or where some are equal and some are not.
+
+If all three numbers are equal, print the "All numbers are equal" message.
+
+If none of the numbers are equal, determine if any pair of numbers are equal. If so, print the "Neither all are equal or different" message.
+
+If none of the above cases apply, it means that all three numbers are different. In this case, print the "All numbers are different" message.
