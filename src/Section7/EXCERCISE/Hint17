@@ -1,0 +1,23 @@
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Check for Negative Numbers:
+
+If the given number is negative (number < 0), return -1 as per the requirement.
+
+Get the Last Digit:
+
+Use the modulus operator (%) to get the last digit of the number. This is done by calculating number % 10.
+
+Get the First Digit:
+
+Create a while loop that continues as long as number is greater than or equal to 10. This is because we want to reduce the number to a single digit (the first digit).
+
+Inside the loop, divide number by 10 (number /= 10) to remove the last digit and keep reducing it until there's only one digit left.
+
+Calculate and Return the Sum:
+
+The value of number after the loop will be the first digit.
+
+Add the firstDigit and lastDigit together and return the result.

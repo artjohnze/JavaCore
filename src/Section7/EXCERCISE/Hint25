@@ -1,0 +1,19 @@
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Understand the Problem: Make sure you understand the problem statement and what the method is supposed to do. In this case, the method is determining if you can pack flour bags of given sizes to reach a specified goal weight.
+
+Handling Invalid Inputs: The first step is to handle the case of invalid inputs, where any of the input values (bigCount, smallCount, goal) is negative. If any of them is negative, return false.
+
+Calculating Total Big Weight: Calculate the total weight of the big flour bags by multiplying bigCount with the BIG_WEIGHT constant.
+
+Comparing Total Big Weight and Goal: Compare the totalBigWeight with the goal. If totalBigWeight is greater than or equal to the goal, it means you have enough big flour bags to potentially reach the goal.
+
+Checking Remaining Weight: If totalBigWeight is greater than or equal to the goal, calculate the remaining weight needed to reach the goal by finding the remainder of goal divided by BIG_WEIGHT.
+
+Comparing with Small Count: Check if you have enough small flour bags (smallCount) to cover the remaining weight calculated in the previous step. If smallCount is greater than or equal to the remaining weight, it means you can pack the bags to reach the goal.
+
+Checking the Other Case: If totalBigWeight is less than the goal, you'll need to consider using both big and small flour bags. Calculate the weight that can be fulfilled using big flour bags (goal - totalBigWeight). Then check if you have enough small flour bags (smallCount) to cover the remaining weight.
+
+Return the Result: Based on the above conditions, set the result variable to true if packing is possible, and return it at the end of the method.

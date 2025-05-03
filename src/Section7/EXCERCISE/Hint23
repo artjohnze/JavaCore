@@ -1,0 +1,23 @@
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Check for Invalid Values:
+
+Start by checking if the input number is less than 1. If it is, return false.
+
+Loop to Calculate Divisors:
+
+Use a for loop to iterate through numbers from 1 to number - 1. You want to check if these numbers are divisors of the given number.
+
+Calculate Sum of Divisors:
+
+Inside the loop, check if the current number is a divisor of the given number (i.e., number % i == 0).
+
+If it is a divisor, add the value of i to the sum variable.
+
+Check for Perfect Number:
+
+After the loop, compare the calculated sum with the original number.
+
+If the sum is equal to the original number, then the number is a perfect number, and you should return true. Otherwise, return false.

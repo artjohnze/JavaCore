@@ -1,0 +1,27 @@
+There are several ways you can implement these methods.  This is one way to do it.
+
+
+
+First, ensure that the year parameter is within the valid range (1 to 9999).
+
+Implement a switch statement for the month parameter using the arrow notation introduced in Java 14. For each valid month value, return the corresponding number of days.
+
+For February (month 2), use the isLeapYear method to determine whether it's a leap year and return 29 if it is, otherwise return 28.
+
+For any invalid month value, return -1 as an indication of an invalid input.
+
+Method 2: isLeapYear
+
+First, check if the year parameter is within the valid range of 1 to 9,999. If it's not, return false immediately as it's an invalid input.
+
+The main logic to determine if a year is a leap year or not is as follows:
+
+If the year is divisible by 4, it might be a leap year, so proceed to the next steps.
+
+If the year is not divisible by 100, it's a leap year, return true.
+
+If the year was divisible by 100, check if it's divisible by 400.
+
+If the year is divisible by 400, it's a leap year, return true.
+
+If the year doesn't satisfy any of the leap year conditions, return false.

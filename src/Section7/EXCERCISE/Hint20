@@ -1,0 +1,15 @@
+There are several ways you can implement these methods.  This is one way to do it.
+
+
+
+isValid Method:
+
+This method checks if a given number is valid, i.e., between 10 and 1000 (inclusive). Use the condition && to establish that the number should be greater than or equal to 10, and less than or equal to 1000.
+
+hasSameLastDigit Method:
+
+Start by checking the validity of all three input numbers using the isValid method. If any of them is not valid, return false.
+
+To extract the last digit from a number, use the modulo operator %. For example, lastA = a % 10 will give you the last digit of number a.
+
+Compare the last digits of the three numbers using logical OR (||) to check if any two of them have the same last digit.

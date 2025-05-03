@@ -1,0 +1,25 @@
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Check for Invalid Values:
+
+The method should start by checking if either first or second is less than 10. If either of them is, return -1.
+
+Determine the Smaller Number:
+
+To find the greatest common divisor, you'll need to iterate up to the smaller of the two numbers. Determine the smaller of the two numbers, first and second.
+
+Loop to Find GCD:
+
+Use a for loop to iterate through numbers from 1 up to the determined smaller number.
+
+Inside the loop, check if both first and second are divisible evenly by the current value of j. You can use the modulus operator (%) for this.
+
+Update GCD:
+
+If both first and second are divisible by j, update the gcd variable with the current value of j. This will store the greatest common divisor found so far.
+
+Return GCD:
+
+After the loop, return the value of the gcd variable, which will hold the greatest common divisor of first and second.

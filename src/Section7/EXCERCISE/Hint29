@@ -1,0 +1,30 @@
+There are several ways you can implement these methods.  This is one way to do it.
+
+
+
+getBucketCount(double width, double height, double areaPerBucket, int extraBuckets):
+
+Check for invalid input: Ensure that width, height, areaPerBucket, and extraBuckets are all positive values.
+
+Calculate the total area that needs to be covered by subtracting the area covered by the extraBuckets from the total area.
+
+Call the getBucketCount(double area, double areaPerBucket) method with the calculated remaining area.
+
+getBucketCount(double width, double height, double areaPerBucket):
+
+Check for invalid input: Ensure that width, height, and areaPerBucket are all positive values.
+
+Calculate the total area that needs to be covered.
+
+Call the getBucketCount(double area, double areaPerBucket) method with the calculated total area.
+
+getBucketCount(double area, double areaPerBucket):
+
+Check for invalid input: Ensure that area and areaPerBucket are both positive values.
+
+Calculate the number of buckets required by dividing the total area by the areaPerBucket.
+
+Use Math.ceil() to round up the number of buckets to the nearest whole number (since you can't have a fraction of a bucket).
+
+Convert the result to an integer and return it.
+

@@ -1,0 +1,38 @@
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Initialize Variables:
+
+Create an instance of Scanner using System.in to read input from the user.
+
+Initialize variables sum and count to keep track of the sum and the number of entered integers.
+
+Initialize avg as a long to store the average.
+
+Loop for Input:
+
+Use a while loop that runs indefinitely (while (true)) to continuously read input.
+
+Inside the loop:
+
+Check if the scanner has the next integer using scanner.hasNextInt().
+
+If there's an integer, add it to the sum, increment the count, and consume the line separator with scanner.nextLine() to move to the next line.
+
+If the input is not an integer, break out of the loop to stop reading input.
+
+Calculate Average:
+
+After the loop, check if count is greater than 0.
+
+If count is greater than 0, calculate the average by dividing sum by count and round it to the nearest integer using Math.round().
+
+Print Result:
+
+Print the calculated sum and avg using System.out.println() with appropriate messages.
+
+Close Scanner:
+
+Close the Scanner using scanner.close() to release the resources associated with it.
+

@@ -1,0 +1,21 @@
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Check for Invalid Value:
+
+The method should start by checking if the given number is less than 1. If it is, print "Invalid Value" and return.
+
+Loop through Factors:
+
+Use a for loop to iterate through numbers from 1 to number.
+
+Inside the loop, check if number is divisible evenly by the current value of i.
+
+You can do this using the modulus operator (%).
+
+Print Factors:
+
+If the remainder of number % i is 0, it means that i is a factor of number.
+
+Print the value of i on a new line.

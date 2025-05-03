@@ -1,0 +1,18 @@
+
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Input Validation: Begin by checking if the input number is negative. If it is, return -1 according to the specified requirement.
+
+Initialize Sum: Create an integer variable sum and initialize it to 0. This variable will be used to accumulate the sum of even digits.
+
+Loop through Digits: Use a for loop that iterates through each digit of the given number. Start the loop with int i = number and continue as long as i is greater than 0. In each iteration, divide i by 10 (using i /= 10) to move to the next digit.
+
+Extract Last Digit: Inside the loop, use the modulus operator % to extract the last digit of i. Store it in an integer variable, say lastDigit.
+
+Check for Even Digit: Check if lastDigit is an even number by using the % operator with 2 (lastDigit % 2 == 0). If the condition is true, it means the digit is even, and you should add it to the sum.
+
+Accumulate Sum: Inside the loop, if the digit is even, add it to the sum using the += operator.
+
+Return Sum: Once the loop finishes iterating through all the digits, return the sum.

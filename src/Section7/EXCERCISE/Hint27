@@ -1,0 +1,15 @@
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Validate Input: Before proceeding, ensure the input number is valid (greater than or equal to 5).
+
+Nested Loop: Use nested loops to iterate through each row and column of the square.
+
+Identify Positions: Determine the positions where you need to print a star (*) and where to print a space ( ).
+
+Conditions: You can use conditional statements to check whether the current position should have a star or a space based on whether it's on the first/last row or column, or on the diagonal.
+
+Print Characters: Inside the inner loop, use the System.out.print() method to print either a star or a space character based on your conditions.
+
+Line Break: After printing characters for a row, use System.out.println() to move to the next line before proceeding to the next row.

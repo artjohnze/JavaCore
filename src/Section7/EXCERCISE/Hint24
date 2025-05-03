@@ -1,0 +1,68 @@
+There are several ways you can implement these methods.  This is one way to do it.
+
+
+
+reverse(int number):
+
+Initialize a variable reverse to store the reversed number.
+
+Use a while loop to reverse the digits of the number.
+
+Inside the loop, update reverse by multiplying it by 10 and adding the last digit of the number.
+
+Update number by dividing it by 10.
+
+Return the reverse value.
+
+2. getDigitCount(int number):
+
+Handle the special case of a negative number by returning -1.
+
+Handle the special case of number being 0 by returning 1.
+
+Initialize a count variable to store the number of digits.
+
+Use a loop where the counter variable starts from 1 and is multiplied by 10 in each iteration.
+
+Increment the count variable in each iteration.
+
+Return the count value.
+
+3. numberToWords(int number):
+
+Handle the special case of a negative number by printing "Invalid Value" and returning.
+
+Reverse the number using the reverse(int number) method.
+
+Calculate the number of leading zeroes using the difference in digit counts between number and its reverse.
+
+Handle the special case of number being 0 by printing "Zero" and returning.
+
+Use a while loop to extract and print the words for each digit in the reversed number:
+
+Use switch statement to print the word corresponding to the last digit.
+
+Update the reverse value by dividing it by 10.
+
+Use a loop to print the leading zeroes as "Zero" in a loop.
+
+Here's a code skeleton based on the hints:
+
+public class NumberToWords {
+
+    // ... Other methods ...
+
+    public static void numberToWords(int number) {
+        // Handle special cases and calculate leading zeroes
+
+        while (reverse != 0) {
+            int lastDigit = reverse % 10;
+            // Use switch statement to print words for lastDigit
+            reverse /= 10;
+        }
+
+        // Print leading zeroes using a loop
+    }
+}
+Make sure to replace the comments with the actual code and complete the method implementations accordingly.
+

@@ -1,0 +1,32 @@
+There are several ways you can implement these methods.  This is one way to do it.
+
+
+
+1. isOdd Method:
+
+The isOdd method checks if a given number is odd or not.
+
+An odd number is greater than 0 and leaves a remainder when divided by 2.
+
+Use the modulus operator (%) to check if the number is odd.
+
+Return true if the number is odd, and false otherwise.
+
+
+
+2. sumOdd Method:
+
+The sumOdd method calculates the sum of odd numbers within a given range.
+
+Check for invalid input conditions: start and end should be non-negative, and end should be greater than or equal to start.
+
+Initialize a variable sum to store the sum of odd numbers.
+
+Use a for loop to iterate through the range from start to end.
+
+Check if each number is odd using the isOdd method.
+
+If the number is odd, add it to the sum.
+
+After the loop, return the calculated sum.
+

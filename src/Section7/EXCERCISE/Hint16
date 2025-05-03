@@ -1,0 +1,18 @@
+
+There are several ways you can implement this method.  This is one way to do it.
+
+
+
+Declare two variables, reverse and original, both initialized with the given number.
+
+Initialize reverse to 0. This variable will store the reversed digits of the number.
+
+Use a while loop that continues until the original becomes 0.
+
+Inside the loop:
+
+Multiply reverse by 10 and add the last digit of original (found using original % 10).
+
+Update original by removing its last digit (using original /= 10).
+
+After the loop, compare reverse with the original number. If they are equal, the number is a palindrome.

@@ -1,0 +1,13 @@
+here are several ways you can implement this method.  This is one way to do it.
+
+
+
+Declare a String variable named numberInWord to store the word representation of the input number.
+
+Use the switch statement to handle different cases based on the value of number.
+
+Inside the switch block, use the arrow (->) syntax to assign the corresponding word to the numberInWord variable for each case.
+
+Remember to include a default case to handle any value that doesn't match the other cases. Assign "OTHER" to the numberInWord variable in the default case.
+
+After the switch block, use System.out.println to print the value of numberInWord.
